@@ -56,8 +56,8 @@
 }
 
 .proposalCard {
-  width: fit-content;
-  margin-top: 0.25rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
   border: black 2px solid;
   flex: 1;
   flex-direction: column;
@@ -71,6 +71,7 @@
 
 .container {
   margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .flex {
