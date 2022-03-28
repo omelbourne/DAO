@@ -17,8 +17,8 @@ async function main() {
     dummyNftMarketplace.address,
     ANTIPARALLEL_NFT_CONTRACT_ADDRESS,
     {
-      // This assumes account has at least 1 ETH 
-      value: ethers.utils.parseEther("1"),
+      // This assumes account has at least 0.5 ETH 
+      value: ethers.utils.parseEther("0.5"),
     }
   );
   await antiparallelDAO.deployed();
